@@ -1,6 +1,6 @@
 const fs = require('fs');
 const readline = require('readline');
-const calculateDistance = require('./distance-calculator');
+const calculateDistance = require('distance-calculator-haversine');
 
 const targetAreaCoordinates = { latitude: '53.339428', longitude: '-6.257664' };
 
